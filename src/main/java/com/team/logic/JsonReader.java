@@ -9,29 +9,24 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 public class JsonReader {
 
-    public void readJson() throws IOException {
+    public ArrayList<Player> readJson() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         TeamRCB rcb = mapper.readValue(new File("src/main/team.json"), TeamRCB.class);
         System.out.println(rcb.getLocation());
         ArrayList<Player> pl = rcb.getPlayer();
-        for(int i =0; i< pl.size(); i++)
-        {
-            Player play = pl.get(i);
-            System.out.println(play.getName());
-            System.out.println(play.getCountry());
-            System.out.println(play.getPrice());
-            System.out.println(play.getRole());
-        }
-
+        return pl;
 
     }
 
-    public static void main(String[] args) throws IOException {
-        JsonReader js = new JsonReader();
-        js.readJson();
+    public Long actualForeignPlayersNumbers(ArrayList<Player> pl)
+    {
+       Long count =  pl.stream().filter(s->!s.getCountry().equals("India")).count();
+       return count;
+
     }
 
 
