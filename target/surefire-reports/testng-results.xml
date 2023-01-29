@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-29T21:08:08 IST" name="All Test Suite" finished-at="2023-01-29T21:08:08 IST" duration-ms="210">
+    <groups>
+    </groups>
+    <test started-at="2023-01-29T21:08:08 IST" name="C:/Users/webonise/IdeaProjects/RCBTeamProject" finished-at="2023-01-29T21:08:08 IST" duration-ms="210">
+      <class name="com.team.test.TestCases">
+        <test-method is-config="true" signature="configFileReader()[pri:0, instance:com.team.test.TestCases@d4342c2]" started-at="2023-01-29T21:08:08 IST" name="configFileReader" finished-at="2023-01-29T21:08:08 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configFileReader -->
+        <test-method signature="foreignPlayersValidationTest()[pri:0, instance:com.team.test.TestCases@d4342c2]" started-at="2023-01-29T21:08:08 IST" name="foreignPlayersValidationTest" finished-at="2023-01-29T21:08:08 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foreignPlayersValidationTest -->
+        <test-method signature="wicketKeeperValidationTest()[pri:0, instance:com.team.test.TestCases@d4342c2]" started-at="2023-01-29T21:08:08 IST" name="wicketKeeperValidationTest" finished-at="2023-01-29T21:08:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wicketKeeperValidationTest -->
+      </class> <!-- com.team.test.TestCases -->
+    </test> <!-- C:/Users/webonise/IdeaProjects/RCBTeamProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
