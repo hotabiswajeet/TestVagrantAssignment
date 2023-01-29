@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.567" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.663" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\webonise\IdeaProjects\RCBTeamProject\target\test-classes;C:\Users\webonise\IdeaProjects\RCBTeamProject\target\classes;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\webonise\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\webonise\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\webonise\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\webonise\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\webonise\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\webonise\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\webonise\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\webonise\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\webonise\IdeaProjects\Copied Repo\TestVagrantAssignment\target\test-classes;C:\Users\webonise\IdeaProjects\Copied Repo\TestVagrantAssignment\target\classes;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\webonise\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\webonise\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\webonise\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\webonise\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\webonise\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\webonise\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\webonise\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\webonise\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\webonise\AppData\Local\Temp\surefire17237767026064968219\surefirebooter-20230129210807612_3.jar C:\Users\webonise\AppData\Local\Temp\surefire17237767026064968219 2023-01-29T21-08-07_290-jvmRun1 surefire-20230129210807612_1tmp surefire_0-20230129210807612_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\webonise\AppData\Local\Temp\surefire13669703921828540730\surefirebooter-20230129215819920_3.jar C:\Users\webonise\AppData\Local\Temp\surefire13669703921828540730 2023-01-29T21-58-19_556-jvmRun1 surefire-20230129215819920_1tmp surefire_0-20230129215819920_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\webonise\IdeaProjects\RCBTeamProject\target\test-classes;C:\Users\webonise\IdeaProjects\RCBTeamProject\target\classes;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\webonise\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\webonise\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\webonise\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\webonise\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\webonise\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\webonise\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\webonise\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\webonise\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\webonise\IdeaProjects\Copied Repo\TestVagrantAssignment\target\test-classes;C:\Users\webonise\IdeaProjects\Copied Repo\TestVagrantAssignment\target\classes;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\webonise\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\webonise\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\webonise\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\webonise\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\webonise\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\webonise\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\webonise\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\webonise\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\webonise\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\webonise"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2021-09-14"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\webonise\IdeaProjects\RCBTeamProject"/>
+    <property name="basedir" value="C:\Users\webonise\IdeaProjects\Copied Repo\TestVagrantAssignment"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\webonise\AppData\Local\Temp\surefire17237767026064968219\surefirebooter-20230129210807612_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\webonise\AppData\Local\Temp\surefire13669703921828540730\surefirebooter-20230129215819920_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-LTS-2724"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\webonise\AppData\Local\Temp\"/>
     <property name="java.version" value="17"/>
-    <property name="user.dir" value="C:\Users\webonise\IdeaProjects\RCBTeamProject"/>
+    <property name="user.dir" value="C:\Users\webonise\IdeaProjects\Copied Repo\TestVagrantAssignment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,11 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="foreignPlayersValidationTest" classname="com.team.test.TestCases" time="0.178">
+  <testcase name="foreignPlayersValidationTest" classname="com.team.test.TestCases" time="0.212">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="wicketKeeperValidationTest" classname="com.team.test.TestCases" time="0.004"/>
+  <testcase name="wicketKeeperValidationTest" classname="com.team.test.TestCases" time="0.005"/>
 </testsuite>
